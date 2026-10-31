@@ -1,0 +1,36 @@
+# Web servers
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+Jinja2==3.1.6
+
+# Config & validation
+pydantic==2.10.4
+pydantic-settings==2.7.0
+
+# Database stuff
+SQLAlchemy==2.0.36
+alembic==1.14.0
+psycopg[binary]==3.2.3
+
+# AI version
+openai==3.5.0
+
+# SMS version (Still needs work)
+twilio==9.4.1
+
+# Calendar stuff
+google-api-python-client==2.157.0
+google-auth==2.37.0
+google-auth-oauthlib==1.2.1
+
+# Scheduling of follow-ups
+APScheduler==3.11.0
+
+# Timezone
+tzdata==2024.2
+
+# Testing stuff
+pytest==8.3.4
+pytest-cov==6.0.0
+httpx==0.28.1
